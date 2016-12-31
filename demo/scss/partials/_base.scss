@@ -1,0 +1,65 @@
+body{
+    font-family: $bodyFont;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    @include font-smoothing;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-center {
+    text-align: center
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headerFont;
+}
+
+.bgPrimary {
+    background-color: $colorPrimary
+}
+
+.fgPrimary {
+    color: $colorPrimary
+}
+
+.bgAccent {
+    background-color: $colorAccent
+}
+
+.fgAccent {
+    color: $colorAccent
+}
+
+.bgDefault {
+    background-color: $colorDefault
+}
+
+.fgDefault {
+    color: $colorDefault
+}
+
+.bgBlack {
+    background-color: $colorBlack
+}
+
+.fgBlack {
+    color: $colorBlack
+}
+
+.bgWhite {
+    background-color: $colorWhite
+}
+
+.fgWhite {
+    color: $colorWhite
+}

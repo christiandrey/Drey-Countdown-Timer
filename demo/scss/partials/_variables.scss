@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+//  Responsive breakpoints
+$S: 480px; // Small phones Styles are written for this breakpoint by default, so no need to specify it.
+$M: 768px; // Phablets
+$L: 992px; // 10" Tablets and desktops
+$XL: 1200px; // 10" Tablets and desktops..
+
+//  Colors
+$colorPrimary   : #2e2c40;
+$colorAccent    : #e5b054;
+$colorDefault   : #9898b7;
+$colorBlack     : #000000;
+$colorWhite     : #ffffff;
+$colorGray      : #e9ebee;
+$colorTrans     : rgba(46,44,64,0.7);
+
+//  Fonts
+$bodyFont: 'Segoe UI',Open Sans, sans-serif;
+$headerFont: "Segoe UI", Open Sans, sans-serif;
+
+//  WebFonts
+@font-face {
+    font-family: 'mayeka';
+    src: url('../fonts/Mayeka.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
